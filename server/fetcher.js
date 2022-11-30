@@ -8,7 +8,7 @@ document.write(`<!-- Global site tag (gtag.js) - Google Analytics -->
   gtag('config', 'UA-132341920-2');
 </script>
 `)
-
+setCookie("cf_username","prathameshks",1);
 page_data  = {};
 
 function setCookie(cname, cvalue, exdays) {
